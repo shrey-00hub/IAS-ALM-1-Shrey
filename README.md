@@ -1,17 +1,17 @@
-# IAS ALM 1 – Encryption Algorithms and Client–Server File Transfer
+# IAS ALM 1 – Encryption Algorithms
 
-This repository contains the IAS ALM 1 project materials transferred with the original author's permission.
+This repository contains the files available in the source repository, transferred with the original author's permission.
 
 ## Contents
 
 - `algorithms/caesar_cipher.py` – Caesar cipher encryption and decryption
 - `algorithms/playfair_cipher.py` – Playfair cipher encryption
 - `algorithms/sdes.py` – Simplified DES (SDES) implementation
-- `create_file.py` – helper script for generating a 10 KB sample text file
+- `create_file.py` – helper script intended to generate a 10 KB sample text file
 
 ## Run
 
-Use Python 3. Run an algorithm from the project root, for example:
+Use Python 3 from the project root:
 
 ```bash
 python algorithms/caesar_cipher.py
@@ -19,7 +19,7 @@ python algorithms/playfair_cipher.py
 python algorithms/sdes.py
 ```
 
-Run `python create_file.py` after creating a `files` folder if you want to generate the sample file; the script writes to `files/server_10kb.txt`.
+**Note:** `create_file.py` writes to `files/server_10kb.txt`, so create a `files` folder first if you want to run that script. The source repository's current file tree did not include the client/server scripts, sample files, or screenshots mentioned in its original README; those files have not been copied because they were not present in the source tree.
 
 ## Attribution
 
